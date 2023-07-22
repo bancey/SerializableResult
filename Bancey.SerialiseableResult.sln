@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0AE987E-0BFB-40BA-B14B-F01BDD827E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bancey.SerialisableResult", "src\Bancey.SerialisableResult\Bancey.SerialisableResult.csproj", "{ED4EBFDD-7DCB-4662-85DB-8967A7275CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bancey.SerialiseableResult.UnitTests", "src\Bancey.SerialiseableResult.UnitTests\Bancey.SerialiseableResult.UnitTests.csproj", "{64A46303-8448-40D9-B37C-1094C13F0FDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED4EBFDD-7DCB-4662-85DB-8967A7275CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4EBFDD-7DCB-4662-85DB-8967A7275CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4EBFDD-7DCB-4662-85DB-8967A7275CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4EBFDD-7DCB-4662-85DB-8967A7275CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A46303-8448-40D9-B37C-1094C13F0FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A46303-8448-40D9-B37C-1094C13F0FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A46303-8448-40D9-B37C-1094C13F0FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A46303-8448-40D9-B37C-1094C13F0FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED4EBFDD-7DCB-4662-85DB-8967A7275CD7} = {E0AE987E-0BFB-40BA-B14B-F01BDD827E0D}
+		{64A46303-8448-40D9-B37C-1094C13F0FDC} = {E0AE987E-0BFB-40BA-B14B-F01BDD827E0D}
+	EndGlobalSection
+EndGlobal
