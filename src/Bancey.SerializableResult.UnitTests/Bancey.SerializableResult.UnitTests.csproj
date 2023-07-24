@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bancey.SerializableResult\Bancey.SerializableResult.csproj" />
+  </ItemGroup>
+
 </Project>
