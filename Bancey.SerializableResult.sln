@@ -5,9 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0AE987E-0BFB-40BA-B14B-F01BDD827E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bancey.SerializableResult", "src\Bancey.SerializableResult\Bancey.SerializableResult.csproj", "{ED4EBFDD-7DCB-4662-85DB-8967A7275CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bancey.SerializableResult", "src\Bancey.SerializableResult\Bancey.SerializableResult.csproj", "{ED4EBFDD-7DCB-4662-85DB-8967A7275CD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bancey.SerializableResult.UnitTests", "src\Bancey.SerializableResult.UnitTests\Bancey.SerializableResult.UnitTests.csproj", "{64A46303-8448-40D9-B37C-1094C13F0FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bancey.SerializableResult.UnitTests", "src\Bancey.SerializableResult.UnitTests\Bancey.SerializableResult.UnitTests.csproj", "{64A46303-8448-40D9-B37C-1094C13F0FDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28A5AF9D-A452-45A4-9D7F-DE329D8CD5C3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\build.yml = .github\workflows\build.yml
+		LICENSE = LICENSE
+		README.md = README.md
+		renovate.json = renovate.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
