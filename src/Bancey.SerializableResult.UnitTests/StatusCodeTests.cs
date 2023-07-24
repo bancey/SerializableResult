@@ -41,11 +41,11 @@ namespace Bancey.SerializableResult.UnitTests
         {
             Type type = typeof(StatusCode);
             PropertyInfo? propertyInfo = type.GetProperty(name);
-            Assert.NotNull(propertyInfo);
-            StatusCode? status = propertyInfo.GetValue(null) as StatusCode;
+            propertyInfo.Should().NotBeNull();
+            StatusCode? status = propertyInfo?.GetValue(null) as StatusCode;
 
-            Assert.NotNull(status);
-            Assert.Equal(expectedCode, status.Code);
+            status.Should().NotBeNull();
+            status?.Code.Should().Be(expectedCode);
         }
     }
 }
